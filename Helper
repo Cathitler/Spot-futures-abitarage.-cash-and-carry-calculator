@@ -1,0 +1,50 @@
+# How to Avoid Slippage by Checking Bid/Ask Spreads and Order Book Depth  
+
+Slippage occurs when your order is filled at a worse price than expected, often due to low liquidity or high volatility. To minimize slippage, you should carefully analyze the **bid-ask spread** and **order book depth** before placing your trade.  
+
+### **1. Check the Bid-Ask Spread**  
+The **bid-ask spread** is the difference between the highest price a buyer is willing to pay (bid) and the lowest price a seller is willing to accept (ask).  
+
+- **Narrow Spread (Good Liquidity):**  
+  - Example: Bid = $50.00, Ask = $50.01  
+  - Indicates a liquid market with tight pricing.  
+  - Less likely to experience significant slippage.  
+
+- **Wide Spread (Low Liquidity):**  
+  - Example: Bid = $49.50, Ask = $50.50  
+  - Indicates low liquidity or high volatility.  
+  - Higher risk of slippage, especially for larger orders.  
+
+**Action:** Avoid trading assets with unusually wide spreads unless you are willing to accept higher slippage.  
+
+### **2. Check Order Book Depth (Best Bid & Ask Quantity)**  
+Even if the spread is tight, you must ensure there is enough volume at the best bid and ask prices to fill your order.  
+
+- **High Depth (Safe for Large Orders):**  
+  - Example: Best Bid = 10 BTC @ $50.00, Best Ask = 8 BTC @ $50.01  
+  - If your order is ≤ 8 BTC, it will likely fill near the best price.  
+
+- **Low Depth (Risky for Large Orders):**  
+  - Example: Best Bid = 0.5 BTC @ $50.00, Best Ask = 0.3 BTC @ $50.01  
+  - If your order is 1 BTC, part of it may fill at worse prices deeper in the order book.  
+
+**Action:**  
+- If trading large amounts, check the cumulative order book depth to see how much liquidity exists within an acceptable price range.  
+- Consider splitting large orders into smaller chunks to minimize market impact.  
+
+### **3. Use Limit Orders Instead of Market Orders**  
+- **Market orders** execute immediately at the best available price but are prone to slippage.  
+- **Limit orders** allow you to set a maximum (for buys) or minimum (for sells) execution price, preventing unfavorable fills.  
+
+### **4. Monitor Market Conditions**  
+- Avoid trading during **high volatility** (e.g., news events, low-liquidity hours).  
+- Check **trading volume**—higher volume usually means better liquidity.  
+
+### **Conclusion**  
+To minimize slippage:  
+ **Trade in liquid markets with tight spreads**  
+ **Verify order book depth matches your trade size**  
+ **Use limit orders for better price control**  
+ **Avoid trading in illiquid or highly volatile conditions**  
+
+By following these steps, you can reduce unexpected price movements and execute trades more efficiently.
