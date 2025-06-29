@@ -55,7 +55,8 @@ Spread: 0.50%
 Direction: Buy Spot / Sell Futures
 Potential Profit: 0.50%
 
-Note: Remember to account for trading fees, funding rates, and slippage in actual trading.
+Note: Remember to account for trading fees, funding rates, and slippage in actual trading or chech the helper
+https://github.com/Cathitler/Spot-futures-abitarage.-cash-and-carry-calculator/blob/main/Helper
 ```
 
 ## Disclaimer
